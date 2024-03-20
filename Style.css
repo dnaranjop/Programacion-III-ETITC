@@ -1,31 +1,54 @@
 
-          .header-contenido {
-            font-family: cursive, sans-serif;
+   .header-contenido {
+            font-family:Courier New, sans-serif;
             margin: 0;
             padding: 0;
             background-color: white;
         }
         .header-contenido h1{
             color: red;
+            text-align: center;
 
         }
         .carpas {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
+            max-width: 800px;
+            margin: 05% auto;
+            padding: 0%;
+            border: 5cqb solid #e31616;
             border-radius: 10px;
             background-color: white;
-            
-        }
-        .encabezado {
-            text-align: right;
-            margin-bottom: 20px;
-        }
-        .contenido {
-            margin-bottom: 20px;
-        }
-        .firma {
+         }
+         .carpas h2{
+            color: red;
             text-align: center;
+         }
+        .menu-icono{
+            height: 100%;
+            width: 90%;
+            border:5cqb solid #e31616;
         }
+        .carpas-1 {
+            text-align: center;
+            margin-bottom: 20px;
+            }
+        .carpas-1 h3{
+            color: red;
+            }
+
+        .carpascontenido p {
+            margin-bottom: 20px;
+            color:red;
+        }
+        .carpas-eco {
+            text-align: center;
+            color: black;
+        }
+        .carpas-eco h3{
+            color: red;
+         }
+         .navbar{
+            color: rgb(11, 4, 4);
+            text-decoration:solid
+
+         }
     
