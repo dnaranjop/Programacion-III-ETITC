@@ -1,54 +1,240 @@
 
-   .header-contenido {
-            font-family:Courier New, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-        }
-        .header-contenido h1{
-            color: red;
-            text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+body{
+    font-family:"Poppins", sans-serif;>
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+        background-image: linear-gradient(rgba(168, 168, 168, 0.7),rgba(58, 50, 50, 0.7)),url(Imagenes\ carpa/header&footer.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: aliceblue;
+    margin-bottom: 35px;
+}
+.header-content p{
+    font-size: 16px;
+    color: #060606;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.dropdown { /* Dropdown */
+    position: center;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown { /* Dropdown */
+    position: center;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color:#FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display:none;
+}
 
-        }
-        .carpas {
-            max-width: 800px;
-            margin: 05% auto;
-            padding: 0%;
-            border: 5cqb solid #e31616;
-            border-radius: 10px;
-            background-color: white;
-         }
-         .carpas h2{
-            color: red;
-            text-align: center;
-         }
-        .menu-icono{
-            height: 100%;
-            width: 90%;
-            border:5cqb solid #e31616;
-        }
-        .carpas-1 {
-            text-align: center;
-            margin-bottom: 20px;
-            }
-        .carpas-1 h3{
-            color: red;
-            }
-
-        .carpascontenido p {
-            margin-bottom: 20px;
-            color:red;
-        }
-        .carpas-eco {
-            text-align: center;
-            color: black;
-        }
-        .carpas-eco h3{
-            color: red;
-         }
-         .navbar{
-            color: rgb(11, 4, 4);
-            text-decoration:solid
-
-         }
+.btn1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(149, 53, 53);
+    color: rgb(4, 4, 5);
+    text-align: center;
+}
+.btn1:hover{
+    background-color: rgb(255, 208, 0);
     
+}
+#carpas{
+    padding:100px 0;
+    background-color: #d0d0d0;
+    position: relative;
+}
+.carpas-content{
+    text-align: center;
+}
+.carpas-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px ;
+}
+.txr-p{
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.carpas-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.carpas-1{
+    padding: 0 25px;
+    align-items: center;
+}
+.carpas-1 img{
+    width: 200px;
+}
+#services{
+    background-image: linear-gradient(rgba(18, 9, 49, 0.7),rgba(18, 9, 49, 0.7)),url(Imagenes\ carpa/fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    padding: 100px 0;
+}
+.services-content{
+    text-align: center;
+}
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color:azure;
+    text-transform: uppercase;
+    margin: 50px;
+}
+.services-content p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.services-1{
+    padding: 0 100px;
+}
+.services-1 img{
+    margin-bottom: 15px;
+    color: white;
+}
+.services-1 h3{
+    color:whitesmoke;
+}
+#blog{
+    padding: 100px 0;
+    text-align: center;
+}
+#blog h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #d90707;
+}
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-1{
+    padding: 15px 55px;
+}
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.blog-1 h3{
+    font-size: 25px;
+    color: rgb(147, 0, 0);
+}
+.formu h2{
+    color: rgb(232, 0, 0);
+    font-weight:700;
+}
+button {  
+    padding: 5px 10px;
+    background-color:rgb(108, 59, 59);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background-image: linear-gradient(rgba(32, 30, 30, 0.7),rgba(58, 50, 50, 0.7)),url(Imagenes\ carpa/header&footer.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+ 
