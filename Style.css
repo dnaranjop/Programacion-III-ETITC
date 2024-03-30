@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 * {
    margin: 0;
@@ -15,7 +16,7 @@ body{
     margin: 0 auto;
 }
 .header {
-        background-image: linear-gradient(rgba(168, 168, 168, 0.7),rgba(58, 50, 50, 0.7)),url(Imagenes\ carpa/header&footer.jpg);
+        background-image: linear-gradient(rgba(168, 168, 168, 0.7),rgba(58, 50, 50, 0.7)),url(imagenes/inicio.jpg);
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -155,7 +156,7 @@ section {
     width: 200px;
 }
 #services{
-    background-image: linear-gradient(rgba(18, 9, 49, 0.7),rgba(18, 9, 49, 0.7)),url(Imagenes\ carpa/fondo2.jpg);
+    background-image: linear-gradient(rgba(18, 9, 49, 0.7),rgba(18, 9, 49, 0.7)),url(imagenes/fondo2_11zon.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -224,13 +225,13 @@ section {
 }
 button {  
     padding: 5px 10px;
-    background-color:rgb(108, 59, 59);
+    background-color:rgb(242, 35, 35);
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
 }
 .footer {
-    background-image: linear-gradient(rgba(32, 30, 30, 0.7),rgba(58, 50, 50, 0.7)),url(Imagenes\ carpa/header&footer.jpg);
+    background-image: linear-gradient(rgba(32, 30, 30, 0.7),rgba(58, 50, 50, 0.7)),url(imagenes/inicio.jpg);
     background-size: cover;
     color: white;
     text-align: center;
