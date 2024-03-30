@@ -1,3 +1,4 @@
+
 document.querySelector('form').addEventListener('submit', function (event) {
     event.preventDefault(); // Evita que se recargue la página al enviar el formulario
     let nombre = document.getElementById('nombre').value;
@@ -35,4 +36,4 @@ document.querySelector('form').addEventListener('submit', function (event) {
     
  });
         
-});
+
