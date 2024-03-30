@@ -32,36 +32,7 @@ document.querySelector('form').addEventListener('submit', function (event) {
         return true;
     }
 
-    const nuevaCategoriaInput = document.getElementById("nueva-categoria");
-    const agregarCategoriaBtn = document.getElementById("agregar-categoria");
     
-    agregarCategoriaBtn.addEventListener("click", () => {
-      const nuevaCategoria = nuevaCategoriaInput.value;
-    
-      // Validar que la categoría no esté vacía
-    
-      if (nuevaCategoria === "") {
-        alert("Ingrese una categoría válida");
-        return;
-      }
-    
-      // Agregar la nueva categoría a la lista
-    
-      const categoriasList = document.querySelector("#Categorias ul");
-      const nuevaCategoriaItem = document.createElement("li");
-      nuevaCategoriaItem.textContent = nuevaCategoria;
-      categoriasList.appendChild(nuevaCategoriaItem);
-    
-      // Limpiar el campo de texto
-    
-      nuevaCategoriaInput.value = "";
-
  });
         
-
-
-
-
-
-
 });
